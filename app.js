@@ -17,7 +17,7 @@ function fetchAnagram(callback) {
 
 fetchAnagram(function (err, array){
     let test= new Array();
-    var atelier = "atelier".split("").sort();
+    var atelier = "atelier".split("").sort().join();
     if (err) {
         console.log(err);
         return;
@@ -40,11 +40,8 @@ function Contains (matchString, testString)
 {
     testString = testString.split("").sort().join();
 
-    if(matchString.length != testString.length)
-        return false;
     if(matchString != testString)
      return false;
      return true;
 }
-
 fetchAnagram;
