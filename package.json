@@ -1,0 +1,20 @@
+{
+  "name": "kata1",
+  "version": "1.0.0",
+  "description": "Anagramme nodejs",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkadia/anagramy.git"
+  },
+  "author": "Quentin Choupin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkadia/anagramy/issues"
+  },
+  "homepage": "https://github.com/Darkadia/anagramy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "linq": "^3.1.1"
+  }
+}
